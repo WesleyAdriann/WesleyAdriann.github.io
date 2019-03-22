@@ -3,12 +3,17 @@ body {
   color: #fff;
   height: 100%;
   text-align: center;
-  font-family: GhotanLight;
+  font-family: GotanLight;
 }
 
 @font-face {
-  font-family: GhotanLight;
+  font-family: GotanLight;
   src: url(../fonts/GothamLight.ttf);
+}
+
+@font-face {
+  font-family: GotanBold;
+  src: url(../fonts//GothamBold.ttf);
 }
 
 .txtWhite {
@@ -17,4 +22,8 @@ body {
 
 .navBarItem:hover {
   font-weight: bold;
+}
+
+.titleFont {
+  font-family: GotanBold;
 }

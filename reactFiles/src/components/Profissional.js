@@ -3,7 +3,7 @@ import React from 'react';
 export const Profissional = () => {
     return (
         <div>
-            <p className="h1">Profissional</p><br/>
+            <p className="h1 titleFont">Profissional</p><br/>
 
             <b>2017/19</b><br/>
             Conselho Nacional do Ministério Público (CNMP).<br/>
@@ -19,8 +19,8 @@ export const Profissional = () => {
             Tribunal de Justiça do Distrito Federal e dos Territórios (TJDFT).<br/>
             Atender ligações telefônicas e ao publico em geral,
             arquivar documentos, formulários, impressos ou relatórios diversos,
-            receber , identificar e entregar documentos, liberar Levar
-            documentos para fins de reprodução, auxiliar na operação de micro-computadores,
+            receber , identificar e entregar documentos, 
+            levar documentos para fins de reprodução, auxiliar na operação de micro-computadores,
             preencher requisição de material de expediente.
         </div>
     )
