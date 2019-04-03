@@ -8,6 +8,7 @@ import { Inicio } from './components/Inicio'
 import { Conhecimentos } from './components/Conhecimentos';
 import { Contato } from './components/Contato';
 import { Formacao } from './components/Formacao';
+import { Cursos } from './components/Cursos';
 
 class App extends Component {
   render() {
@@ -33,6 +34,11 @@ class App extends Component {
           <div className="row" id="conhecimentos">
             <div className="mt-5 pt-3" style={{minHeight: '95vh', width: '100%',}}>
               <Conhecimentos/>
+            </div>
+          </div>
+          <div className="row" id="cursos">
+            <div className="mt-5 pt-3" style={{minHeight: '95vh', width: '100%',}}>
+              <Cursos/>
             </div>
           </div>
           <div className="row" id="contato">
