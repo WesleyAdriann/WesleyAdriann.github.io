@@ -46,10 +46,13 @@ h4 {
 .lista {
   margin: 0;
   padding: 0;
-  /* text-align: left; */
 }
 
 .lista li {
   list-style-type: none;
   margin: 5px;
+}
+
+.tabela tbody tr td:first-child {
+  padding-right: 50px;
 }
