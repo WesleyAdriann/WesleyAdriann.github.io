@@ -25,9 +25,14 @@ body {
   max-width: 1140px;
   height: 100vh;
   display: flex;
+  text-align: center;
   align-items: center;
   justify-content: center;
   flex-direction: column;
+}
+
+.row p {
+  margin-bottom: 5px;
 }
 
 h1 {
@@ -36,4 +41,15 @@ h1 {
 
 h4 {
   font-weight: normal;
+}
+
+.lista {
+  margin: 0;
+  padding: 0;
+  /* text-align: left; */
+}
+
+.lista li {
+  list-style-type: none;
+  margin: 5px;
 }
